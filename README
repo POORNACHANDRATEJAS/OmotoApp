@@ -1,0 +1,15 @@
+Ionic Angular Conference Application
+This application is a Omoto demo of the Ionic Framework and Angular.
+
+There is not an actual Ionic Conference at this time. This project is just to show off Ionic components in a real-world application. Please go through the steps in CONTRIBUTING before submitting an issue.
+
+* Download the installer for Node.js 6 or greater.
+* Install the ionic CLI globally: npm install -g ionic
+* Clone this repository: git clone https://github.com/ionic-team/ionic-conference-app.git.
+* Run npm install from the project root.
+* Run ionic serve in a terminal from the project root.
+
+I have created six page application 
+containing 1 as Dashboard
+And other 5 as pages as Welcome, Feedback, Recommend, Suggestions and Thank you.
+Which are Responsive for Desktop and Mobile view.
