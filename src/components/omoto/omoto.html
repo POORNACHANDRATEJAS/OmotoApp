@@ -1,0 +1,43 @@
+<ion-header style="text-align:center;">
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <h1>Omoto App</h1>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+<ion-row>
+  <ion-col col-4>
+    <ion-card (click)="gotoWelcome($event)">
+      <img src="https://i.stack.imgur.com/Vkq2a.png"/>
+      <div class="card-title">Welcome</div>
+    </ion-card>
+    </ion-col>
+    <ion-col col-4>
+        <ion-card (click)="gotoOption($event)">
+            <img src="https://i.stack.imgur.com/Vkq2a.png"/>
+            <div class="card-title">Feedback</div>
+        </ion-card>
+    </ion-col>
+    <ion-col col-4>
+        <ion-card (click)="gotoRecommend($event)">
+            <img src="https://i.stack.imgur.com/Vkq2a.png"/>
+            <div class="card-title">Recommend</div>
+        </ion-card>
+        </ion-col>
+    <ion-col col-4>
+    <ion-card (click)="gotoSuggestions($event)">
+        <img src="https://i.stack.imgur.com/Vkq2a.png"/>
+        <div class="card-title">Suggestions</div>
+    </ion-card>
+    </ion-col>
+    <ion-col col-4>
+    <ion-card (click)="gotoThankyou($event)">
+      <img src="https://i.stack.imgur.com/Vkq2a.png"/>
+      <div class="card-title">Thank You</div>
+    </ion-card>
+    </ion-col>
+  </ion-row>
+  </ion-content>

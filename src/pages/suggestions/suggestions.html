@@ -1,0 +1,30 @@
+<ion-header style="text-align:center;">
+
+  <ion-navbar>
+      <h1>Suggestions</h1>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg">
+  <div class="container">
+      <div class="box ">
+          <div>
+              <img class="logo" src="../../assets/imgs/logo.png" title="Omoto" alt="logo">
+          </div>
+          <div class="content">
+              <p>That’s great. Please also share any further comments or suggestions you might have.</p>
+          </div>
+          <div>
+              <form>
+                  <textarea rows="4" name="comment" required placeholder="Add comment here"></textarea>
+                  <button ion-button class="button" (click)="gotoThankYou($event)">Submit</button>
+              </form>
+          </div>
+      </div>
+  </div>
+  <div class="bottom">
+      <img src="../../assets/imgs/logo1.png" class="logo1" title="omoto1" alt="logo">
+  </div>
+</ion-content>
